@@ -1,0 +1,132 @@
+.nav {
+  list-style: none;
+}
+
+.navbarContainer {
+  border: 2px solid orange;
+}
+
+.imageStyle {
+  border: 1px solid orange;
+  border-radius: 50px;
+  margin-right: 5px;
+}
+
+.navbarName {
+  font-weight: bold;
+  font-size: 18px;
+  color: orange;
+  user-select: none;
+}
+
+.brandName {
+  font-weight: bold;
+  font-size: 18px;
+  color: orange;
+  user-select: none;
+}
+
+.textHover:hover {
+  color: gray;
+}
+
+.gallery {
+  margin: 25px 30px;
+  border: 3px solid orange;
+  border-radius: 15px;
+  width: 200px;
+ display: inline-block;
+  overflow: hidden;
+}
+
+.gallery:hover {
+  border: 1px solid black;
+}
+
+.gallery img {
+  width: 100%;
+}
+
+.gTitle {
+  text-align: center;
+  color: white;
+  background-color: orange;
+  font-weight: bold;
+  padding: 5px;
+}
+
+.dropdownItem {
+  color: darkorange;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.bar {
+  position: relative;
+  display: none;
+}
+
+.bar span {
+  position: absolute;
+  color: orange;
+  font-size: 35px;
+}
+
+#check {
+  display: none;
+}
+
+@media (max-width:767px) {
+  .navbar {
+    display: block;
+  }
+
+  .nav {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    background-color: orange;
+    margin-top: 15px;
+    right: 80px;
+    height: 0;
+    visibility: hidden;
+    transition: 0.1s;
+    height: 140px;
+    width: 200px;
+    text-align: center;
+  }
+  .brandName {
+    display:none;
+  }
+  .navbarName {
+    color: white;
+  }
+
+  .bar {
+    display: block;
+    position: absolute;
+    top: 20px;
+    right: 80px;
+    cursor: pointer;
+  }
+
+  .bar #times {
+    display: none;
+  }
+
+  #check:checked~nav .bar #times {
+    display: block;
+  }
+
+  #check:checked~nav .bar #bars {
+    display: none;
+  }
+
+  #check:checked~nav ol {
+    visibility: visible;
+    height: 140px;
+    width: 200px;
+    text-align: center;
+  }
+
+}

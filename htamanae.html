@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--fontawesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+        crossorigin="anonymous"></script>
+    <title>Htamane</title>
+    <style>
+         body {
+           margin-left:40px ;
+           margin-right: 40px;
+        }
+        .image {
+            border: 1px solid orange;
+            width: 100%;
+        }
+
+        .navText1 {
+            text-align: center;
+            font-weight: bold;
+            background-color: orange;
+            border: none;
+            width: 50%;
+        }
+
+        .aText1 {
+            color: white;
+        }
+
+        .navText2 {
+            text-align: center;
+            font-weight: bold;
+            font-size: 15px;
+            background-color: white;
+            border: 1px solid orange;
+        }
+
+        .aText2 {
+            color: orange;
+        }
+
+        .aText:hover {
+            color: gray;
+            border: none;
+        }
+
+        .ulclass {
+            margin-top: 10px;
+            font-weight: bold;
+            font-size: 25px;
+            color: darkorange;
+        }
+
+        .liclass {
+            font-size: 20px;
+            margin-left: 40px;
+        }
+
+        .navclass1 {
+            margin-left: 350px;
+        }
+
+        .navclass2 {
+            margin-left: 900px;
+            margin-top: 5px;
+        }
+
+        .creditText {
+            color: gray;
+            margin-left: 50px;
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <img src="images/htamane2.jpg"  height="300px" class="image">
+    </div>
+
+    <ul class="nav nav-tabs">
+        <li class="nav-item navText1"><a href="#ingredients" data-bs-toggle="tab"
+                class="nav-link aText1">INGREDIENTS</a>
+        </li>
+        <li class="nav-item  navText1"><a href="#instructions" data-bs-toggle="tab"
+                class="nav-link aText1">INSTRUCTION</a>
+        </li>
+    </ul>
+    <!--Tab pane-->
+    <div class="tab-content">
+        <div class="tab-pane fade container active" id="ingredients">
+            <!--ingredient Language-->
+            <ul class="nav nav-tabs navclass1">
+                <li class="nav-item navText2 "><a href="#myanmar" data-bs-toggle="tab"
+                        class="nav-link aText2">Myanmar</a>
+                </li>
+                <li class="nav-item navText2 "><a href="#english" data-bs-toggle="tab"
+                        class="nav-link aText2">English</a>
+                </li>
+            </ul>
+            <div class="tab-content">
+                <div class="tab-pane container" id="english">
+                    <ul class="ulclass">Ingredients<br> <br>
+                        <li class="liclass">2 cups glutinous rice</li>
+                        <li class="liclass">1 cup water</li>
+                        <li class="liclass">1 tsp salt</li>
+                        <li class="liclass">oil</li>
+                        <li class="liclass">chopped ginger</li>
+                        <li class="liclass">chopped garlic</li>
+                        <li class="liclass">1/2 cup shredded coconut</li>
+                        <li class="liclass">roasted peanuts</li>
+                        <li class="liclass">seasame seeds</li>
+                    </ul>
+                    <div class="creditText">Credit : original uploader</div>
+                </div>
+                <div class="tab-pane container" id="myanmar">
+                    <ul class="ulclass">ပါဝင်ပစ္စည်းများ <br> <br>
+                        <li class="liclass">ကောက်ညှင်းဆန် - ၂ခွက်</li>
+                        <li class="liclass">ရေ - ၁ ခွက်</li>
+                        <li class="liclass">ဆားအနည်းငယ်</li>
+                        <li class="liclass">ဆီ</li>
+                        <li class="liclass">ချင်း</li>
+                        <li class="liclass">ကြက်သွန်ဖြူ</li>
+                        <li class="liclass">အုန်းသီး</li>
+                        <li class="liclass">မြေပဲလှော်</li>
+                        <li class="liclass">နှမ်းစေ့</li>
+
+                    </ul>
+                    <div class="creditText">Credit : original uploader</div>
+                </div>
+            </div>
+        </div>
+        <div class="tab-pane fade container" id="instructions">
+            <!--Instruction Language-->
+            <ul class="nav nav-tab navclass2">
+                <li class="nav-item navText2 "><a href="#myanmar1" data-bs-toggle="tab"
+                        class="nav-link aText2">Myanmar</a>
+                </li>
+                <li class="nav-item navText2 "><a href="#english1" data-bs-toggle="tab"
+                        class="nav-link aText2">English</a>
+                </li>
+            </ul>
+            <div class="tab-content">
+                <div class="tab-pane container" id="english1">
+                    <ol class="ulclass">Instruction<br> <br>
+                        <li class="liclass">The glutinous rice will require soaking in water for about 2 hours.The
+                            shredded coconut need to be fried till crispy. Also fry up the peanuts and some sliced
+                            ginger. Sieve the oil and leave to drain.</li>
+                        <li class="liclass">Heat wok or frying pan with oil . When the oil is sizzling add ginger and
+                            garlic stir until they are fragrant and golden brown.</li>
+                        <li class="liclass">Add in the glutinous rice, water and stir gently. Sprinkle in salt. Cover
+                            the pan and let the rice cook over medium heat for about 30 mins. Stir well from the bottom
+                            of
+                            the pan to make sure its not sticking. </li>
+                        <li class="liclass">Once th rice is cooked, add the peanuts, seasame seeds, shredded coconut,
+                            crispy ginger and garlic.</li>
+                        <li class="liclass">Use two large spatulas to fold and knead the rice and ingredients.Once
+                            everything is evenly mixed in and rice is similar to a ball of dough its ready.</li>
+
+                    </ol>
+                    <div class="creditText">Credit : original uploader</div>
+                </div>
+                <div class="tab-pane container" id="myanmar1">
+                    <ol class="ulclass">ပြုလုပ်နည်း<br> <br>
+                        <li class="liclass">ထမနဲမထိုးခင် ကောက်ညှင်းဆန်ကို ရေဆေးပြီး ၃နာရီခန့်ရေစိမ်ထားပါ။</li>
+                        <li class="liclass">မြေပဲကိုလှော်ပြီးအခွံသန့်စင်ပါ။ နှမ်းကိုလည်းလှော်ထားပါ။ အုန်းသီးကို
+                            အနေတော်ပါးပါးလှီး၍ ကြော်ပြီး ဗန်းထဲတွင်အအေးခံထားပါ။ ချင်းကို အခွံခွာပြီး ပါးပါးလှီးထားပါ။
+                            ရေစိမ်ထားသောကောက်ညှင်းဆန်ကို ဇကာနှင့်ရေစင်အောင်စစ်ထားပါ။</li>
+                        <li class="liclass">မိုးပြဲဒယ်တွင် ဆီကိုအပူပေးပြီး အုန်းသီးကို ရွှေအိုရောင်ရသည်အထိကြော်ပါ။
+                            ထိုဆီထဲမှာပဲ ချင်းနှင့် ကြက်သွန်ဖြူကိုဆီသတ်ပါ။</li>
+                        <li class="liclass">အနံမွှေးပြီးနွမ်းလာလျှင် ရေစစ်ထားသောကောက်ညှင်းဆန်ထည့်၍ ကောက်ညှင်းဆန်အထက်
+                            ရေလက် ၂ဆစ်ခန့်ထည့်ပြီး အဖုံး ဖုံးကာပေါင်းပေးပါ။ ရေမခမ်းခင်အထိ ၁၀မိနစ် တစ်ခါ
+                            ယောင်းမနှင့်နှံ့အောင်မွှေပေးပါ။</li>
+                        <li class="liclass">ကောက်ညှင်းနပ်ပြီဆိုလျှင် သစ်သားယောင်းမဖြင့် ကောက်ညှင်းကို ပွတ်ချေပေးပါ။
+                            ပြီးလျှင် နှမ်း၊ မြေပဲ၊ အုန်းသီးကြော်တို့ကိုထည့်ကာ သမအောင်မွှေပေးပြီးလျှင်
+                            သုံးဆောင်နိုင်ပါပြီ။</li>
+                        
+                    </ol>
+                    <div class="creditText">Credit : original uploader</div>
+                </div>
+
+            </div>
+        </div>
+
+</body>
+
+</html>
